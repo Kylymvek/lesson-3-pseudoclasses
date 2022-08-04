@@ -1,0 +1,133 @@
+/*! Псевдоклассы и псевдоэлементы */
+/* :hover - срабатывает при наведении*/
+/* div {
+  background-color: red;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+} */
+
+a {
+  text-decoration: none;
+}
+
+/* div:hover {
+  background-color: aqua;
+  transition: 2s;
+} */
+
+/* visited - подсвечивает посещенные ссылки */
+/* a:visited {
+  color: aqua;
+} */
+
+/* active - подсвечивает в момент нажатия */
+/* a:active {
+  color: black;
+} */
+
+/* .block {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+} */
+
+/* .block:active {
+  background-color: teal;
+} */
+
+/* ul {
+  list-style-type: none;
+} */
+
+/* div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* li:first-child > div {
+  background-color: yellow;
+} */
+
+/* li:nth-child(3) > div {
+  background-color: green;
+} */
+
+/* li:last-child > div {
+  background-color: blue;
+} */
+
+/* ul {
+  list-style-type: disc;
+}
+
+ul li::marker {
+  color: red;
+} */
+
+/* input {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+} */
+
+/* .div-1,
+.div-2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+} */
+
+/* not - задает стили всему, что не содержит данный селектор */
+/* div:not(.div-2) {
+  background-color: yellow;
+} */
+
+/*! valid, invalid */
+/* valid - отвечает за правильность типа */
+/* input:valid {
+  background-color: green;
+} */
+
+/* invalid - отвечает за неправильные данные */
+/* input:invalid {
+  background-color: red;
+} */
+
+/*! Псевдоэлементы */
+/* h1::before {
+  content: "World ";
+}
+
+h1::after {
+  content: " World";
+} */
+
+/* selection - применяет стили к выделенному тексту */
+/* p::selection {
+  color: red;
+  background-color: black;
+} */
+
+/* first-letter */
+/* h1::first-letter {
+  color: red;
+  font-size: 55px;
+} */
+
+/* first-line */
+/* p::first-line {
+  color: red;
+  font-size: 25px;
+} */
